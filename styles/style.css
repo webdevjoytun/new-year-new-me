@@ -83,6 +83,7 @@
     height: 300px;
     width: 200px;
    border-left:2px solid lightblue;
+   border-radius: 5px;
     padding: 10px;
     box-shadow: 10px 10px 10px gray;
 
@@ -96,4 +97,14 @@
 hr{
     color: aqua;
    
+}
+/* My plans */
+.plan-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 150px;
+}
+h5{
+    color: #747775;
 }
