@@ -42,6 +42,9 @@
 }
 
 /* failure section style */
+/* section{
+   
+} */
 .failure{
     display: flex;
     align-items: center;
@@ -64,4 +67,33 @@
 .section-description, ul {
     font-size: 16px;
     color: #444343;
+}
+/* passion style */
+.section-title{
+    text-align: center;
+}
+.passion{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 150px;
+}
+.passion-intro{
+    font-size: 16px;
+    color: #444343;
+    height: 300px;
+    width: 200px;
+   border-left:2px solid lightblue;
+    padding: 10px;
+    box-shadow: 10px 10px 10px gray;
+
+}
+#etheirume{
+    border-left:2px solid violet;
+}
+#App{
+    border-left:2px solid yellowgreen;
+}
+hr{
+    color: aqua;
+   
 }
