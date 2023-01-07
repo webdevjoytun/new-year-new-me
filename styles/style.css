@@ -108,3 +108,71 @@ hr{
 h5{
     color: #747775;
 }
+/* watch section */
+.container{
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#grad {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  }
+.watch-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+    color: white;
+    padding: 30px 20px;
+  }
+  .block-title{
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 100px;
+  }
+/* footer */
+.footer{
+   
+    background-color: black;
+    border-radius: 5px;
+}
+.footer-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px;
+}
+.future{
+    color: #FFFFFF;
+    width: 50%;
+}
+.icons > img{
+    padding-left: 15px;
+}
+
+
+.subscribe{
+    color: #FFFFFF;
+}
+.text{
+    color: #FFFFFF;
+}
+
+input{
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.email-sub{
+    display: block;
+}
+.btn-subscribe{
+    font-weight: 600;
+    margin-top: 20px;
+    color: red;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
